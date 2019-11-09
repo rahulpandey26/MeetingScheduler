@@ -132,16 +132,13 @@ public class ScheduleMeetingFragment extends BaseFragment {
     }
 
     private void insertEvent(String description, DateTime startDate, DateTime endDate) throws IOException {
-        Event event = new Event()
-                .setDescription(description);
+        Event event = new Event().setDescription(description);
 
-        EventDateTime start = new EventDateTime()
-                .setDateTime(startDate)
+        EventDateTime start = new EventDateTime().setDateTime(startDate)
                 .setTimeZone("America/Los_Angeles");
         event.setStart(start);
 
-        EventDateTime end = new EventDateTime()
-                .setDateTime(endDate)
+        EventDateTime end = new EventDateTime().setDateTime(endDate)
                 .setTimeZone("America/Los_Angeles");
         event.setEnd(end);
 
@@ -152,8 +149,7 @@ public class ScheduleMeetingFragment extends BaseFragment {
                 new EventReminder().setMethod("email").setMinutes(24 * 60),
                 new EventReminder().setMethod("popup").setMinutes(10),
         };
-        Event.Reminders reminders = new Event.Reminders()
-                .setUseDefault(false)
+        Event.Reminders reminders = new Event.Reminders().setUseDefault(false)
                 .setOverrides(Arrays.asList(reminderOverrides));
         event.setReminders(reminders);
 
