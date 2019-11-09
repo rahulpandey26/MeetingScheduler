@@ -1,7 +1,6 @@
 package com.example.meetingscheduler.common.presenter;
 
 import android.content.Context;
-
 import com.example.meetingscheduler.common.util.NetworkUtil;
 import com.example.meetingscheduler.common.view.BaseFragmentView;
 
@@ -22,7 +21,7 @@ public class BasePresenter {
 
     }
 
-    public void showNetworkAlert() {
+    protected void showNetworkAlert() {
         if (null != mView) {
             mView.showNoNetworkAlert();
         }
@@ -34,7 +33,7 @@ public class BasePresenter {
         }
     }
 
-    public boolean isNetworkAvailable(Context ctx) {
+    protected boolean isNetworkAvailable(Context ctx) {
         return NetworkUtil.isAvailable(ctx);
     }
 

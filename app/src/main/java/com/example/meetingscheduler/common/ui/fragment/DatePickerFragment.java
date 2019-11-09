@@ -83,7 +83,7 @@ public class DatePickerFragment extends DialogFragment implements DatePickerDial
         mDatePickerFragmentListener = null;
     }
 
-    public void setListener(DatePickerFragmentListener datePickerFragmentListener) {
+    private void setListener(DatePickerFragmentListener datePickerFragmentListener) {
         mDatePickerFragmentListener = datePickerFragmentListener;
     }
 
