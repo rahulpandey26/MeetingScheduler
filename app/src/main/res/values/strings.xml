@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Meeting Scheduler</string>
+    <string name="retry">Retry</string>
+    <string name="uh_oh">Uh-Oh</string>
+    <string name="network_error_message">Your internet connection is down.\nCheck its settings &amp; try again.</string>
+    <string name="schedule_meeting">Schedule Company Meetings</string>
+    <string name="date_of_meeting">Date of Meeting</string>
+    <string name="description">Description</string>
+    <string name="submit">submit</string>
+
+    <string name="createEventStart">Start At</string>
+    <string name="createEventStartDate">Pick Date</string>
+    <string name="createEventStartTime">Pick Time</string>
+
+    <string name="createEventEnd">End At</string>
+    <string name="createEventEndDate">Pick Date</string>
+    <string name="createEventEndTime">Pick Time</string>
+    <string name="syncing_with_calendar">Syncing with calendar..</string>
+    <string name="no_connection">No network connection available.</string>
+    <string name="google_play_required_msg">This app requires Google Play Services. Please install
+    "Google Play Services on your device and relaunch this app."</string>
+    <string name="request_cancelled">Request cancelled.</string>
+    <string name="following_error">The following error occurred:</string>
+    <string name="please_fill_desc">Please fill the descrption</string>
+    <string name="year">Year</string>
+    <string name="y">Y</string>
+    <string name="month">month</string>
+    <string name="m">m</string>
+    <string name="day">day</string>
+    <string name="d">d</string>
+    <string name="_00">00</string>
+    <string name="min">min</string>
+    <string name="hr">hr</string>
+
+</resources>

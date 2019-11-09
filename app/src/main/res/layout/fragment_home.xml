@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/meeting_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:nestedScrollingEnabled="false" />
+
+    <Button
+        android:id="@+id/schedule_meeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_button_mango"
+        android:layout_marginBottom="@dimen/margin_padding_15dp"
+        android:paddingBottom="@dimen/margin_padding_16dp"
+        android:paddingLeft="@dimen/margin_padding_43dp"
+        android:paddingRight="@dimen/margin_padding_43dp"
+        android:paddingTop="@dimen/margin_padding_16dp"
+        android:text="@string/schedule_meeting"
+        android:textAllCaps="true"
+        android:textColor="@color/black333333"
+        app:backgroundTint="#fe9f25" />
+
+</RelativeLayout>

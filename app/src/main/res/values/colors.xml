@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- **************Custom Color************-->
+    <color name="white">#ffffff</color>
+    <color name="marine">#053c6d</color>
+    <color name="windowsBlue">#376cc2</color>
+    <color name="cloudyBlue">#c7cedb</color>
+    <color name="cloudyBlueTwo">#b6becf</color>
+    <color name="twilightBlue">#0f4473</color>
+    <color name="brownishGrey">#5d5d5d</color>
+    <color name="dustyOrange">#eb922c</color>
+    <color name="darkCoral">#cc4a41</color>
+    <color name="blueGrey">#909db7</color>
+    <color name="blueGreyWith50PercentOpacity">#80909db7</color>
+    <color name="whiteSmoke">#f7f7f7</color>
+    <color name="reddish">#d13535</color>
+    <color name="warmGrey">#9b9b9b</color>
+    <color name="black333333">#333333</color>
+    <color name="whiteTwo">#ebebeb</color>
+    <color name="whiteF7f7f7">#f7f7f7</color>
+    <color name="blueGreyTwo">#919eb8</color>
+    <color name="black282828">#282828</color>
+    <color name="warmGray8b8b8b">#8b8b8b</color>
+    <color name="mango">#fe9f25</color>
+    <color name="warmGreyWith30PercentOpacity">#4D9b9b9b</color>
+    <color name="warmGreyThree">#979797</color>
+    <color name="warmGreyThree25PercentOpacity">#40979797</color>
+    <color name="mango_selected">#c18503</color>
+    <color name="placeholder_bg">#e1dddddd</color>
+
+</resources>
